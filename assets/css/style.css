@@ -18,15 +18,23 @@ body{
 #my-picture {
     width: 200px;
     height: 200px;
-    margin:25px;
-    
+    margin-top:20px;
+    margin-bottom:10px;
+    margin-right: 20px;
+    margin-left:20px;
     float:left;
+}
+
+#p-container {
+    padding-top: 5px;
+    padding-right: 30px;
 }
 
 #container {
     margin:0 auto;
-    width:90%;
-    height:1020;
+    width:960px;
+    /* width:90%; */
+    /* height:1020; */
     border-style:solid;
     border-color:rgb(0, 128, 38);
     border-width: thin;
@@ -42,7 +50,6 @@ body{
     float:center;
     margin-top:20px;
     height:98%;
-    ima
     /* margin-right:100px; */
     /* margin-left:100px; */
 }
@@ -56,11 +63,12 @@ body{
 
 #main {
     margin:0 auto;
+    width=960px;
     /* background:rgba(255, 255, 255, 0.603); */
     /* border-style:solid; */
     /* border-color:#dddddd; */
-    width:90%;
-    height:960px;
+    /* width:90%; */
+    /* height:960px; */
 }
 
 #nav-bar {
@@ -73,23 +81,31 @@ body{
 }
 
 #name-box {
+    text-aling:center;
+    color:white;
     display:inline-block;
     margin-left:100px;
     background:#4aaaa5;
-    width:100px;
+    width:150px;
     height:60px;
 }
 
-/* #name { */
-    /* text-align:center; */
+#name {
+    margin: 0 auto;
+    /* float:middle; */
+    /* width:100%; */
+    /* display:inline-block; */
+    text-align:center;
+    /* padding-left:10px; */
     /* padding-top:20%; */
-/* } */
+}
 
 #nav-box {
     display:inline-block;
     float:right;
     background:gray;
-    width:100px;
+    padding-left:5px;
+    width:200px;
     height:60px;
 }
 
