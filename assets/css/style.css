@@ -23,6 +23,7 @@ body{
 #p-container {
     padding-top: 5px;
     padding-right: 30px;
+    padding-left:30px;
 }
 
 form{
@@ -50,7 +51,9 @@ form{
     border-width: thin;
     float:center;
     /* margin-top:20px; */
-    margin:20px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 100px;
     height:98%;
     /* margin-right:100px; */
     /* margin-left:100px; */
@@ -66,8 +69,9 @@ form{
 #main {
     color:#777777;
     margin:0 auto;
-    width=960px;
-    margin-bottom:10px;
+    width:960px;
+    margin: 10px;
+    /* margin-bottom:10px; */
     /* background:rgba(255, 255, 255, 0.603); */
     /* border-style:solid; */
     /* border-color:#dddddd; */
@@ -85,7 +89,7 @@ form{
 }
 
 #name-box {
-    text-aling:center;
+    text-align:center;
     color:white;
     display:inline-block;
     margin-left:100px;
@@ -118,17 +122,6 @@ form{
     height:60px;
 }
 
-#footer {
-/* display:inline-block; */
-/* margin: 0 auto; */
-/* margin-left:20px; */
-margin:top 5px;
-background: #91aac7;
-/* width: 90%; */
-width:960px;
-height:60px;    
-}
-
 #submit-button {
     margin-top: 10px;
     background-color: #4aaaa5; 
@@ -151,6 +144,22 @@ height:60px;
     margin-left: 50px;
 }
 
+#portfolio-container {
+        margin:0 auto;
+        /* width:90%; */
+        width:960;
+        background:#ffffff;
+        border-style:solid;
+        border-color:#dddddd;
+        border-width: thin;
+        float:center;
+        /* margin-top:20px; */
+        margin:20px;
+        height:98%;
+        /* margin-right:100px; */
+        /* margin-left:100px; */  
+}
+
 .portfolio-labels {
     float:left;
     /* display:inline-block; */
@@ -163,13 +172,13 @@ height:60px;
     /* margin-left:50px; */
     position: relative;
     /* left:160px; */
-    left: 0px;
-    right: 100%;
+    left: 20px;
+    right: 0;
     top:200px;
     height: 30px;
     /* width: 70px; */
     /* width: 66%; */
-    width: 82%;
+    width: 70%;
 }
 
 #my-picture {
@@ -177,10 +186,19 @@ height:60px;
     height: 200px;
     margin-top:20px;
     margin-bottom:10px;
-    /* margin-right: 20px; */
-    /* margin-left:20px; */
-    /* float:left; */
+    margin-right: 20px;
+    margin-left:20px;
+    float:left;
 }
+
+#footer {
+    margin:top 5px;
+    background:#777777;
+    border-top: solid;
+    border-color: #4aaaa5;
+    width:960px;
+    height:20px;    
+    }
 
 /* #nav-buttons { */
     /* text-align:center; */
