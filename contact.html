@@ -32,13 +32,16 @@
                     <hr> 
                 </header>
                 
-                <form id="contactform">
+                <form id="contactform" action="mailto:jeffrey.miller445@gmail.com" 
+                      method="post" enctype="text/plain">
+                      <!-- could be connected to a formmail script for 
+                           seamless operation -->
                     <strong>Name:</strong><br>
                     <!-- <label for="name">Name</label> -->
                     <input type="text" name="name"><br><br>
                     <strong>Email:</strong><br>
                     <input type="email" name="email"><br><br>
                     <strong>Message</strong><br>
-                    <textarea id="message" rows="10" cols="60"></textarea><br>
+                    <textarea id="message" name="message" rows="10" cols="60"></textarea><br>
                     <input type="submit" id= "submit-button"value='Submit'>
                 </form>
