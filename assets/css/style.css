@@ -197,8 +197,17 @@ form{
     border-top: solid;
     border-color: #4aaaa5;
     width:960px;
-    height:20px;    
-    }
+    height:25px; 
+}
+
+#footer-text {
+    float:right;
+    margin-right:480px;
+    font-size: smaller;
+    /* display: inline-block;   */
+}
+    /* display: inline-block;   */
+    /* text-aling: center;  */
 
 /* #nav-buttons { */
     /* text-align:center; */
