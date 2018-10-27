@@ -181,7 +181,7 @@ form{
     width: 70%;
 }
 
-#my-picture {
+.my-picture {
     width: 200px;
     height: 200px;
     margin-top:20px;
@@ -197,13 +197,15 @@ form{
     border-top: solid;
     border-color: #4aaaa5;
     width:960px;
-    height:25px; 
+    height:30px; 
 }
 
 #footer-text {
     float:right;
     margin-right:480px;
+    /* margin-bottom: 20px; */
     font-size: smaller;
+    /* padding-bottom: 20px; */
     /* display: inline-block;   */
 }
     /* display: inline-block;   */
